@@ -235,9 +235,14 @@ function onDragStart(x) {
   dragStartX = x;
   dragOffset = 0;
   sections.forEach(s => s.classList.add('dragging'));
-  const hint = document.getElementById('swipeHint');
-  if (hint) hint.style.opacity = '0';
-  setTimeout(() => { if (hint) hint.style.display = 'none'; }, 300);
+  const left = document.getElementById('swipeLeft');
+  const right = document.getElementById('swipeRight');
+  if (left) left.style.opacity = '0';
+  if (right) right.style.opacity = '0';
+  setTimeout(() => {
+    if (left) left.style.display = 'none';
+    if (right) right.style.display = 'none';
+  }, 300);
 }
 
 function onDragMove(x) {
