@@ -1,12 +1,12 @@
 function contatoAlert() {
   if (confirm('Site de demonstração! Entre em contato no WhatsApp do programador para mais informações.')) {
-    window.open('https://wa.me/5500000000000', '_blank');
+    window.open('https://wa.me/551162759260', '_blank');
   }
 }
 
 function redirecionarWhatsApp() {
   if (confirm('Site de demonstração! Entre em contato no WhatsApp do programador para mais informações.')) {
-    window.open('https://wa.me/5500000000000', '_blank');
+    window.open('https://wa.me/5511962759260', '_blank');
   }
 }
 
