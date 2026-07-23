@@ -90,12 +90,12 @@ transform:scale(1.05); }
   background:none; border:none; cursor:pointer; z-index:210;
 }
 .galeria-track {
-  display:flex; height:100%; align-items:center; padding:0 30vw; gap:60vw;
+  display:flex; height:100%; align-items:center; padding:0 15vw; gap:60vw;
   transition:transform 0.4s ease;
 }
 .galeria-item {
-  width:50vw; height:60vh; object-fit:cover; flex-shrink:0; border-radius:12px;
-  box-shadow:0 10px 40px rgba(0,0,0,0.5);
+  width:70vw; height:60vh; object-fit:cover; flex-shrink:0; border-radius:12px;
+  box-shadow:0 10px 40px rgba(0,0,0,0.5); margin:0 auto;
 }
 .swipe-arrow-gal {
   position:absolute; top:50%; transform:translateY(-50%); z-index:210;
